@@ -1,0 +1,59 @@
+body {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: lightblue;
+    width: 100%;
+}
+
+.fixture {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.home {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.home-score {
+    width: 10%;
+    color: white;
+}
+
+.away-score {
+    width: 10%;
+    color: white;
+}
+
+.vs {
+    width: 5%;
+    text-align: center;
+}
+
+.away-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.away {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
